@@ -18,7 +18,7 @@ max_marks = max(students_marks.values())
 min_marks = min(students_marks.values())
 
 while True:
-     b = int(input("\nWhat do you wanna check ? \n1 = Highest marks \n2 = Lowest marks \n3 =Your marks \n4 = Exit \n"))
+     b = int(input("\nWhat do you wanna check ? \n1 = Highest marks in your class \n2 = Lowest marks in your class\n3 =Your marks \n4 = Exit \n"))
      
      if b == 3:
         print("\nYour marks is : ",c)
